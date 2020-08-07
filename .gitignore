@@ -201,5 +201,8 @@ bower.json # same
 # Ignore Byebug command history file.
 .byebug_history
 
+# VS Code debug and config files
+.vscode
+
 # End of https://www.gitignore.io/api/rails
 

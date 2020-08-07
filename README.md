@@ -32,8 +32,12 @@ https://imgur.com/1oQo7Yi
 
 
 ## Setup and Installation - Instructions for Developers
-To use the program locally, fork and clone the repo. Then install dependencies with the following terminal command:
-- bundle install
+To use the program locally, fork and clone the repo. 
+
+- Install dependencies with `bundle install`
+- Start Postgres with `psql -U postgres`
+- Run Rake db tasks 
+- Start server with `rails server`
 
 ## Development process
 I began the development process by creating a wireframe, an ERB, and user stories for the app I'd envisioned. Coding started by creating the back end, and then continued with the front end client. The api was built on top of a General Assembly template that included User table and authentication. I created a Records table to store date and time of each practice, length of the session, and user feedback on how the session went. I scaffolded these resources, tested end points with curl scripts, updated resource controllers with inheritance, and added relationships between the tables.
